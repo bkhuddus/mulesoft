@@ -32,8 +32,7 @@
 				<configuration>
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
-						<server>Sandbox</server>
-						<muleVersion>4.5.1</muleVersion>
+						<muleVersion>3.8.1</muleVersion>
 						<applicationName>helloworld</applicationName>
 						<workers>1</workers>
 						<workerType>MICRO</workerType>
