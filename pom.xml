@@ -32,12 +32,12 @@
 				<configuration>
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
-						<server>${server}</server>
-						<muleVersion>${app.runtime}</muleVersion>
-						<applicationName>${app.name}</applicationName>
-						<workers>${worker}</workers>
-						<workerType>${workerType}</workerType>
-						<environment>${environment}</environment>
+						<server>Sandbox</server>
+						<muleVersion>4.5.1</muleVersion>
+						<applicationName>helloworld</applicationName>
+						<workers>1</workers>
+						<workerType>MICRO</workerType>
+						<environment>Sandbox</environment>
 						<objectStoreV2>true</objectStoreV2>
 					</cloudHubDeployment>
 					<classifier>---- select project type ----</classifier>
